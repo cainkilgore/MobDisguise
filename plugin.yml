@@ -1,0 +1,56 @@
+name: MobDisguise
+main: me.desmin88.mobdisguise.MobDisguise
+version: 1.11
+authors: [desmin88]
+depend: [BukkitContrib]
+commands:
+    md:
+        description: Allows player to disguise as mob
+        usage: /md [disguise,undisguise,types]
+permissions:
+    mobdisguise.use:
+        description: Allows a player to disguise as any mob
+        children:
+            mobdisguise.creeper: true
+            mobdisguise.skeleton: true
+            mobdisguise.spider: true
+            mobdisguise.giant: true
+            mobdisguise.zombie: true
+            mobdisguise.slime: true
+            mobdisguise.ghast: true
+            mobdisguise.pigman: true
+            mobdisguise.pig: true
+            mobdisguise.sheep: true
+            mobdisguise.cow: true
+            mobdisguise.chicken: true
+            mobdisguise.squid: true
+            mobdisguise.wolf: true
+    mobdisguise.creeper:
+        description: Allows a player to disguise as a creeper
+    mobdisguise.skeleton:
+        description: Allows a player to disguise as a skeleton
+    mobdisguise.spider:
+        description: Allows a player to disguise as a spider
+    mobdisguise.giant:
+        description: Allows a player to disguise as a giant
+    mobdisguise.zombie:
+        description: Allows a player to disguise as a zombie
+    mobdisguise.slime:
+        description: Allows a player to disguise as a slime
+    mobdisguise.ghast:
+        description: Allows a player to disguise as a ghast
+    mobdisguise.pigman:
+        description: Allows a player to disguise as a pigman        
+    mobdisguise.pig:
+        description: Allows a player to disguise as a pig
+    mobdisguise.sheep:
+        description: Allows a player to disguise as a sheep
+    mobdisguise.cow:
+        description: Allows a player to disguise as a cow
+    mobdisguise.chicken:
+        description: Allows a player to disguise as a chicken
+    mobdisguise.squid:
+        description: Allows a player to disguise as a squid
+    mobdisguise.wolf:
+        description: Allows a player to disguise as a wolf
+                    
