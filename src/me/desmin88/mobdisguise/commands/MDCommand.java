@@ -53,7 +53,7 @@ public class MDCommand implements CommandExecutor {
                 }
                 
                 if(MobDisguise.PermissionCheck("mobdisguise.use", s) && !s.isOp()){
-                    if(!MobDisguise.PermissionCheck("mobdiguise." + mobtype, s) ) {
+                    if(!MobDisguise.PermissionCheck("mobdisguise." + mobtype, s) ) {
                         s.sendMessage(MobDisguise.pref + "You don't have permission for this mob!");
                         return true;
                     }

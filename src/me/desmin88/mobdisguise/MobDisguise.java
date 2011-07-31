@@ -19,8 +19,6 @@ import me.desmin88.mobdisguise.utils.PacketUtils;
 
 import com.nijiko.permissions.PermissionHandler;
 import com.nijikokun.bukkit.Permissions.Permissions;
-
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.Event.Priority;
@@ -29,8 +27,6 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.config.Configuration;
-
-import com.nijikokun.bukkit.Permissions.Permissions;
 
 public class MobDisguise extends JavaPlugin {
     public static List<String> disList = new ArrayList<String>();
