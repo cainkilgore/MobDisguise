@@ -11,7 +11,7 @@ permissions:
         description: Allows a player to disguise as any mob
         children:
             mobdisguise.creeper: true
-            mobdisguise.skeleton: true
+            mobdisguise.skeleton: truecdccd
             mobdisguise.spider: true
             mobdisguise.giant: true
             mobdisguise.zombie: true
